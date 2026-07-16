@@ -1,0 +1,21 @@
+{
+  "name": "learning-claude",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript automation framework for practicetestautomation.com",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:login": "playwright test tests/login/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  }
+}
